@@ -1,7 +1,7 @@
 # ABOUT PROJECT
 # This project is unorderd extandable database for store, search, process data
 
-# --- Cmake settings ----------------------------------------------------------
+# -- Cmake settings -----------------------------------------------------------
 
 # cmake version
 cmake_minimum_required(VERSION 3.11)
@@ -9,12 +9,12 @@ cmake_minimum_required(VERSION 3.11)
 # set c++ standard
 set(CMAKE_CXX_STANDARD 17)
 
-# --- Project information -----------------------------------------------------
+# -- Project information ------------------------------------------------------
 
 # project name
 project(imoogi CXX)
 
-# --- Project main part  ------------------------------------------------------
+# -- Project main part  -------------------------------------------------------
 
 # project's source files
 add_subdirectory(src)
@@ -22,14 +22,14 @@ add_subdirectory(src)
 # main executable program
 add_executable(${PROJECT_NAME} src/main.cpp)
 
-# --- Tests -------------------------------------------------------------------
+# -- Tests --------------------------------------------------------------------
 
 # project's tests
 add_subdirectory(tests)
 
 # googletest lib for testing cpp
 
-# --- External libraries ------------------------------------------------------
+# -- External libraries -------------------------------------------------------
 
 # include ctest or include from gtest source code
 include(CTest)
