@@ -1,0 +1,8 @@
+# ignore build folder
+build
+
+# ignore doxygen generated documentation
+doc/doxygen
+
+# ignore sphinx generated documentation
+doc/sphinx_docs/_build

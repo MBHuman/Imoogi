@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "Imoogi"
+description = "Imoogi documentation"
+version = "0.1.0"
+authors = ["Evgeny Dmitriev"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyyaml = "6.0"
+pygments = ">=2.7"
+recommonmark = "0.7.1"
+sphinx-sitemap = "2.2.0"
+sphinx-autobuild = "2021.3.14"
+sphinx-multiversion-scylla = "^0.2.12"
+Sphinx = "4.3.2"
+sphinx-markdown-tables = "0.0.15"
+redirects_cli = "~0.1.2"
+pydata-sphinx-theme = "0.12.0"
+markupsafe = "2.0.1"
+six = "1.16.0"
+
+[build-system]
+requires = ["poetry-core>=0.12"]
+build-backend = "poetry.masonry.api"
